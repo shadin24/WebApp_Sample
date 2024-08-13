@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cases">Cases</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="banner">
+    <h1>Education</h1>
+    <p>Education is the transmission of knowledge, skills, and character traits and manifests in various forms...</p>
+    <a href="#more" class="cta">Learn More</a>
+</section>
+
+<section class="edu">
+    <h1>What are the 3 Types of Education?</h1>
+    <div class="cards-container">
+        <div class="types">
+            <img src="images/1.png" alt="Formal Education">
+            <h3>Formal</h3>
+            <p>Formal education typically takes place in a structured environment such as a school...</p>
+            <a href="#formal" class="cta">More</a>
+        </div>
+        <div class="types">
+            <img src="images/2.png" alt="Informal Education">
+            <h3>Informal</h3>
+            <p>Informal education occurs through daily experiences and interactions outside of a structured curriculum...</p>
+            <a href="#informal" class="cta">More</a>
+        </div>
+        <div class="types">
+            <img src="images/3.png" alt="Non-formal Education">
+            <h3>Non-formal</h3>
+            <p>Non-formal education happens outside the traditional classroom but follows a structured program...</p>
+            <a href="#nonformal" class="cta">More</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="frm">
+    <form onsubmit="return validate()">
+        <input type="text" name="username" id="username" placeholder="Your Name"><br>
+        <input type="password" name="password" id="password" placeholder="Your Password"><br>
+        <input type="submit" value="Submit">
+        <p id="msg"></p>  <!-- Element to display validation messages -->
+    </form>
+</section>
+
+
+<footer>
+    <p>&copy; 2024 Developed by the Company. All rights reserved.</p>
+</footer>
+</body>
+</html>

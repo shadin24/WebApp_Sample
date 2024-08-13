@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/images1.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+#banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #555;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #333;
+}
+
+.edu {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.edu h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Flex container to hold the cards in a row */
+.edu .cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+/* Individual card styling */
+.edu .types {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 30%; /* Adjusts width to fit three cards in a row */
+    text-align: center;
+}
+
+.edu .types img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.edu .types h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.edu .types p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.frm {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.frm form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.frm input[type="text"],
+.frm input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.frm input[type="submit"] {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
